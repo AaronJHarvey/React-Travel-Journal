@@ -1,1 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
 
+.navbar {
+	border: 1px solid red;
+	width: 100vw;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkred;
+	color: white;
+}
+
+#map {
+	height: 100%;
+}
+
+#Nav-Title {
+	margin-top: 20px;
+	font-size: 50px;
+	font-family: fantasy;
+}

@@ -1,5 +1,11 @@
 import React from 'react';
+import Map from '../Images/World-Map.png';
 
 export default function Navbar () {
-	return <h1>Navbar here</h1>;
+	return (
+		<nav className='navbar'>
+			<img id='map' src={Map} />
+			<h1 id='Nav-Title'>Wanderlust</h1>
+		</nav>
+	);
 }
