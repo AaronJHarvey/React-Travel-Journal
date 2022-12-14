@@ -1,7 +1,14 @@
-import './App.css';
+import React from 'react';
+import Entry from './Components/Entry';
+import Navbar from './Components/Navbar';
 
 function App () {
-	return <h1> Test</h1>;
+	return (
+		<div>
+			<Navbar />
+			<Entry />
+		</div>
+	);
 }
 
 export default App;

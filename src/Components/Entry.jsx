@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function Entry () {
-	return <h1>entry information</h1>;
+	return <h1>Entry information here</h1>;
 }
