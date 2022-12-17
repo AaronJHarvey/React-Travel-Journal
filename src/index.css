@@ -4,7 +4,6 @@
 }
 
 .navbar {
-	border: 1px solid red;
 	width: 100vw;
 	height: 75px;
 	display: flex;
@@ -24,4 +23,20 @@
 	margin-top: 20px;
 	font-size: 40px;
 	font-family: fantasy;
+}
+
+.entry {
+	border: 1px solid green;
+	display: flex;
+
+	margin-left: 8%;
+	margin-right: 8%;
+	/* margin: 100px 40px; */
+	/* width: 67%; */
+	/* height: 33%; */
+}
+
+.entry > .photo {
+	width: 27%;
+	height: 100%;
 }
