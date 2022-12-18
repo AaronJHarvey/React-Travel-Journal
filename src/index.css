@@ -5,7 +5,7 @@
 
 .navbar {
 	width: 100vw;
-	height: 75px;
+	height: 55px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,17 +26,26 @@
 }
 
 .entry {
-	border: 1px solid green;
+	margin: 45px 7%;
+	height: 25%;
+	width: 85%;
 	display: flex;
-
-	margin-left: 8%;
-	margin-right: 8%;
-	/* margin: 100px 40px; */
-	/* width: 67%; */
-	/* height: 33%; */
+	border: 1px solid green;
 }
 
-.entry > .photo {
-	width: 27%;
+.photo {
+	/* aspect-ratio: 2.25/3.5; */
+	width: 25%;
+	aspect-ratio: 2/2.5;
+}
+
+.location-info {
+	border: 1px solid blue;
+	display: inline-flex;
+	width: 50%;
 	height: 100%;
+	margin-left: 5%;
+	margin-top: 50px;
+	justify-content: space-around;
+	font-size: 1.3rem;
 }
