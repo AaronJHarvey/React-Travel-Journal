@@ -13,8 +13,8 @@ export default [
 		title: 'DC',
 		location: 'Washington, DC',
 		googleMapsUrl: 'https://goo.gl/maps/ZasVANDDBgkSmiiE7',
-		startDate: 'October 21, 2022',
-		endDate: 'October 24, 2022',
+		startDate: 'Oct 21, 2022',
+		endDate: 'Oct 24, 2022',
 		description:
 			"Washington, DC, the U.S. capital, is a compact city on the Potomac River, bordering the states of Maryland and Virginia. It's defined by imposing neoclassical monuments and buildings - including the iconic ones that house the federal government's 3 branches: the Capitol, White House and Supreme Court. It's also home to iconic museums and performing-arts venues such as the Kennedy Center.",
 		imageUrl: 'fef'
@@ -23,8 +23,8 @@ export default [
 		title: 'Mount Fuji',
 		location: 'Japan',
 		googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
-		startDate: '12 Jan, 2021',
-		endDate: '24 Jan, 2021',
+		startDate: 'Jan 12, 2021',
+		endDate: 'Jan 24, 2021',
 		description:
 			'Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.',
 		imageUrl: 'src/Images/Mt-Fuji.jpeg'

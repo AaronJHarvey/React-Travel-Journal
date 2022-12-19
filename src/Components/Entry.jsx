@@ -16,9 +16,9 @@ export default function Entry (props) {
 					</a>
 				</div>
 				<h1 className='Entry-Title'>{props.title}</h1>
-				{/* <h4 className='dates'> */}
-				{/* {props.startDate} - {props.endDate} */}
-				{/* </h4> */}
+				<h4 className='dates'>
+					{props.startDate} - {props.endDate}
+				</h4>
 				{/* <p className='description'>{props.description}</p> */}
 			</div>
 		</div>
