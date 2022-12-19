@@ -2,7 +2,6 @@ import React from 'react';
 import { CiLocationOn } from 'react-icons/ci';
 
 export default function Entry (props) {
-	// console.log(props)
 	return (
 		<div className='entry'>
 			<img className='photo' src={props.imageUrl} />
