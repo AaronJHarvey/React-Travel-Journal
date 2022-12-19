@@ -1,5 +1,6 @@
 export default [
 	{
+		id: 1,
 		title: 'Pigeon Forge',
 		location: 'Tennessee',
 		googleMapsUrl: 'https://goo.gl/maps/wcvTsAnXoNTDhpmq5',
@@ -10,6 +11,7 @@ export default [
 		imageUrl: 'dfee'
 	},
 	{
+		id: 2,
 		title: 'DC',
 		location: 'Washington, DC',
 		googleMapsUrl: 'https://goo.gl/maps/ZasVANDDBgkSmiiE7',
@@ -20,6 +22,7 @@ export default [
 		imageUrl: 'fef'
 	},
 	{
+		id: 3,
 		title: 'Mount Fuji',
 		location: 'Japan',
 		googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',

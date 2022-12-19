@@ -19,7 +19,7 @@ export default function Entry (props) {
 				<h4 className='dates'>
 					{props.startDate} - {props.endDate}
 				</h4>
-				{/* <p className='description'>{props.description}</p> */}
+				<p className='description'>{props.description}</p>
 			</div>
 		</div>
 	);
