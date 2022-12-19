@@ -7,6 +7,9 @@ export default defineConfig({
 		react()
 	],
 	base: './',
+	assetsInclude: [
+		'**.jpeg'
+	],
 	build: {
 		outDir: 'docs'
 	}
