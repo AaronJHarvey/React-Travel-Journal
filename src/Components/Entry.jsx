@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiLocationOn } from 'react-icons/ci';
 
 export default function Entry (props) {
 	// console.log(props)
@@ -6,7 +7,8 @@ export default function Entry (props) {
 		<div className='entry'>
 			<img className='photo' src={props.imageUrl} />
 			<div className='location-info'>
-				<h3>{props.location}</h3>
+				<CiLocationOn id='location-icon' />
+				<h3 id='location-name'>{props.location}</h3>
 				<a href={props.googleMapsUrl}>
 					<h3>View on Google Maps</h3>
 				</a>

@@ -48,6 +48,7 @@
 	/* justify-content: space-between; */
 	font-size: 1rem;
 	line-height: 12px;
+	font-family: 'Inter', sans-serif;
 }
 
 .location-info > a {
@@ -58,4 +59,14 @@
 	font-weight: 400;
 	line-height: 12px;
 	margin-left: 20px;
+}
+
+.location-info > #location-name {
+	font-weight: 400;
+}
+
+.location-info > #location-icon {
+	color: rgb(111, 2, 2);
+	align-self: flex-start;
+	font-size: small;
 }
